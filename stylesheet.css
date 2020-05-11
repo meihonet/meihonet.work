@@ -114,7 +114,7 @@ margin-right: 15%;
 }
 
 .box2 h1 {
-  margin-top: 60px;
+  margin-top: 50px;
   font-size: 28px;
   padding: 0.3em;
   background: #fffaf4;
@@ -125,6 +125,46 @@ margin-right: 15%;
   font-size: 17px;
 }
 
+.box3 img {
+  height: 400px;
+}
+
+.box3:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.boxa {
+  float: left;
+  width: 20%;
+  margin-left: 15%;
+}
+
+.boxb {
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.boxc {
+  float: left;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.box4 {
+  margin-top: 60px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  margin-bottom: 70px;
+}
+
+.box4 p {
+  font-size: 17px;
+}
 
 footer {
   border-top: 2px solid #eee;
